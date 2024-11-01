@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\Common\Protocol\Enum.proto" Link="Packet\Schema\Enum.proto" />
+    <None Include="..\..\Common\Protocol\Protocol.proto" Link="Packet\Schema\Protocol.proto" />
+    <None Include="..\..\Common\Protocol\Struct.proto" Link="Packet\Schema\Struct.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.28.3" />
     <PackageReference Include="JWT" Version="10.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
@@ -25,6 +31,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ServerCore\ServerCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Packet\Schema\" />
   </ItemGroup>
 
 </Project>
