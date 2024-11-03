@@ -1,0 +1,16 @@
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\bin\PacketGenerator.exe
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\bin\PacketGenerator.deps.json
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\bin\PacketGenerator.runtimeconfig.json
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\bin\PacketGenerator.dll
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\bin\PacketGenerator.pdb
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\bin\CommandLine.dll
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\obj\Debug\PacketGenerator.csproj.AssemblyReference.cache
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\obj\Debug\PacketGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\obj\Debug\PacketGenerator.AssemblyInfoInputs.cache
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\obj\Debug\PacketGenerator.AssemblyInfo.cs
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\obj\Debug\PacketGenerator.csproj.CoreCompileInputs.cache
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\obj\Debug\PacketGenerator.sourcelink.json
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\obj\Debug\PacketGe.F1D84891.Up2Date
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\obj\Debug\PacketGenerator.dll
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\obj\Debug\PacketGenerator.pdb
+C:\formain\Study\Unity\ASD_Dungeons\Tools\PacketGenerator\obj\Debug\PacketGenerator.genruntimeconfig.cache

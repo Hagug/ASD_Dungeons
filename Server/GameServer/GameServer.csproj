@@ -5,12 +5,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\Common\Protocol\Enum.proto" Link="Packet\Schema\Enum.proto" />
     <None Include="..\..\Common\Protocol\Protocol.proto" Link="Packet\Schema\Protocol.proto" />
     <None Include="..\..\Common\Protocol\Struct.proto" Link="Packet\Schema\Struct.proto" />
+    <None Include="..\GenProto.bat" Link="GenProto.bat" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,7 +36,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Packet\Generated\" />
     <Folder Include="Packet\Schema\" />
   </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="call $(SolutionDir)GenProto.bat $(SolutionDir) \Server\GameServer\Packet\Generated\ 1" />
+  </Target>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="call $(SolutionDir)GenProto.bat $(SolutionDir) \AD_Client\Assets\@Scripts\Packet\Generated\ 0" />
+  </Target>
 
 </Project>
