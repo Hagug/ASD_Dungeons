@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using GameServer.Game.GameLogic;
+using GameServer;
 using Google.Protobuf;
 using Microsoft.Extensions.Configuration;
 using Server.Data;

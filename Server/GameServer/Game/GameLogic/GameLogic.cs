@@ -24,16 +24,21 @@ namespace GameServer
 
         static ConcurrentQueue<GameRoom> _updateQueue;
 
-        public GameLogic()
+        public void Update()
         {
-            _rooms = new Dictionary<int, GameRoom>();
-            _roomIdGenerator = 1;
-            _updateQueue = new ConcurrentQueue<GameRoom>();
 
-            foreach (RoomData roomData in DataManager.RoomDict.Values)
-            {
-
-            }
         }
+
+        //public GameLogic()
+        //{
+        //    _rooms = new Dictionary<int, GameRoom>();
+        //    _roomIdGenerator = 1;
+        //    _updateQueue = new ConcurrentQueue<GameRoom>();
+
+        //    foreach (RoomData roomData in DataManager.RoomDict.Values)
+        //    {
+
+        //    }
+        //}
     }
 }
