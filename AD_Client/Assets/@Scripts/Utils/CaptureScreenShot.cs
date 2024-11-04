@@ -17,7 +17,7 @@ public class CaptureScreenShot : MonoBehaviour
 
         var imageRecorder = ScriptableObject.CreateInstance<ImageRecorderSettings>();
         // imageRecorder.name = DateTime.Now.ToString("yy-MM-dd HH:mm:ss tt");
-        imageRecorder.name = "M1_Screenshot";
+        imageRecorder.name = "AD_Screenshot";
         imageRecorder.Enabled = true;
         imageRecorder.OutputFormat = ImageRecorderSettings.ImageRecorderOutputFormat.PNG;
         imageRecorder.CaptureAlpha = false;
