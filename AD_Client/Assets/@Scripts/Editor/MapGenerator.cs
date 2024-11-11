@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 using UnityEditor;
 #endif
 
-public class MapEditor : MonoBehaviour
+public class MapGenerator
 {
 #if UNITY_EDITOR
 
